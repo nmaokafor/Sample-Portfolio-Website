@@ -1,0 +1,145 @@
+body{
+	border-left: 5px solid #0f0101;
+    border-right: 5px solid #0f0101;
+}
+.left-side, .right-side {
+	height: - webkit - fill - available;
+}
+.left-side {
+	border: 1px solid #eee;
+	padding: 0px;
+}
+.right-side {
+	padding: 0px 0px 0px 15px;
+}
+.left-side h1{
+	font-family: 'Lato', sans-serif;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.picture-container{
+	height: 200px;
+	background: #000000;
+	background-image: url(./img/Nmaspic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bio-container{
+	position: relative;
+	top: -50px;
+	margin-bottom: -50px: 
+}
+.bio-container img{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 5px solid #ffffff;
+	object-fit: cover;
+}
+.bio-info{
+	text-align: center;
+	margin-bottom: 5px;
+}
+.social-links{
+	font-size: 20px;
+	text-align: center;
+	margin-top: -50px;
+	padding: 2px;
+}
+.social-links a{
+	color: #000000;
+}
+.social-links a:hover{
+	color: #4123b5;
+}
+.about-me{
+	padding: 15px;
+}
+.user-skills{
+  padding: 15px;
+}
+.skills span{
+  margin: 5px;
+  border-radius: 5px;
+}
+.badge{
+	background-color: #007bff;
+}
+.nav-tabs{
+	overflow: hidden;
+	background-color: #f1f1f1
+}
+.nav-tabs li{
+	padding: 0px;
+}
+.nav-tabs a{
+ 	float: left;
+ 	border: none;
+ 	outline: none;
+ 	cursor: pointer;
+ 	transition: 0.3s;
+    color: #000000;
+    width: 100%;
+}
+.nav-tabs a:hover{
+  color: red;
+}
+.nav-tabs a:active {
+  background-color: #ccc;
+}
+.tab-content {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tab-content h1 {
+	font-family: 'Lato', sans-serif;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.latest-projects img{
+	width: 100%;
+}
+.latest-projects h4{
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+}
+.project-info {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.services-list img{
+	width: 100%;
+	height: 100%;
+}
+.services-list h4 {
+	font-family: 'Lato', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.services-list div.row{
+	margin-bottom: 10px;
+}
+.services-info {
+    padding-left: 15px; 
+}
+.youtube-list div.col-md-4{
+	padding-left: 10px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+.youtube-list h4{
+	font-family: 'Lato', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.youtube-list div.row{
+	margin-bottom: 10px;
+}
+.youtube-list p{
+	font-weight: 400;
+}
